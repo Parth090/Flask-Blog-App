@@ -1,0 +1,16 @@
+{
+    "params": {
+        "local_server": "True",
+        "local_uri": "mysql://root:@localhost/codingthunder",
+        "prod_uri": "mysql://root:@localhost/codingthunder",
+        "fb_uri": "https://facebook.com/codingthunder",
+        "tw_uri": "https://twitter.com/codingthunder",
+        "gh_uri": "https://github.com/codingthunder",
+        "blog_name": "TheCodingThunder",
+        "about_text": "Hi There, I am learning Flask. Its a great framework for writing backend.",
+        "noof_post": 3,
+        "admin_user": "amuk01",
+        "admin_password": "hello",
+        "upload_location": "C:\\Work\\complete python\\CodeWithHarryPython\\Flask\\static"
+    }
+}
