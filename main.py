@@ -178,7 +178,7 @@ def edit(sno):
 @app.route("/post/<string:post_slug>", methods=["GET"])
 def post_func(post_slug):
     post = Posts.query.filter_by(slug=post_slug).first()
-    return render_template("post.html",post=post)
+    return render_template("post.html", params=params, post=post)
 
 
 @app.route("/contact", methods=["GET", "POST"])
@@ -207,5 +207,5 @@ def contact():
     return render_template("/contact.html", params=params)
 
 
-
-app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True)
